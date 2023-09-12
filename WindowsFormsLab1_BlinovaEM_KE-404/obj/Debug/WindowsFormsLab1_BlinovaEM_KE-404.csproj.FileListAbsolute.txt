@@ -1,0 +1,10 @@
+D:\practical_susu\7 семестр, Алгоритмы и методы представления графической информации\WindowsFormsLab1_BlinovaEM_KE-404\bin\Debug\WindowsFormsLab1_BlinovaEM_KE-404.exe.config
+D:\practical_susu\7 семестр, Алгоритмы и методы представления графической информации\WindowsFormsLab1_BlinovaEM_KE-404\bin\Debug\WindowsFormsLab1_BlinovaEM_KE-404.exe
+D:\practical_susu\7 семестр, Алгоритмы и методы представления графической информации\WindowsFormsLab1_BlinovaEM_KE-404\bin\Debug\WindowsFormsLab1_BlinovaEM_KE-404.pdb
+D:\practical_susu\7 семестр, Алгоритмы и методы представления графической информации\WindowsFormsLab1_BlinovaEM_KE-404\obj\Debug\WindowsFormsLab1_BlinovaEM_KE-404.csproj.AssemblyReference.cache
+D:\practical_susu\7 семестр, Алгоритмы и методы представления графической информации\WindowsFormsLab1_BlinovaEM_KE-404\obj\Debug\WindowsFormsLab1_BlinovaEM_KE_404.Form1.resources
+D:\practical_susu\7 семестр, Алгоритмы и методы представления графической информации\WindowsFormsLab1_BlinovaEM_KE-404\obj\Debug\WindowsFormsLab1_BlinovaEM_KE_404.Properties.Resources.resources
+D:\practical_susu\7 семестр, Алгоритмы и методы представления графической информации\WindowsFormsLab1_BlinovaEM_KE-404\obj\Debug\WindowsFormsLab1_BlinovaEM_KE-404.csproj.GenerateResource.cache
+D:\practical_susu\7 семестр, Алгоритмы и методы представления графической информации\WindowsFormsLab1_BlinovaEM_KE-404\obj\Debug\WindowsFormsLab1_BlinovaEM_KE-404.csproj.CoreCompileInputs.cache
+D:\practical_susu\7 семестр, Алгоритмы и методы представления графической информации\WindowsFormsLab1_BlinovaEM_KE-404\obj\Debug\WindowsFormsLab1_BlinovaEM_KE-404.exe
+D:\practical_susu\7 семестр, Алгоритмы и методы представления графической информации\WindowsFormsLab1_BlinovaEM_KE-404\obj\Debug\WindowsFormsLab1_BlinovaEM_KE-404.pdb
