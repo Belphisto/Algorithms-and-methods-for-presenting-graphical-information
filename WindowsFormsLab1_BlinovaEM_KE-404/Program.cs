@@ -16,7 +16,7 @@ namespace WindowsFormsLab1_BlinovaEM_KE_404
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new BlinovaEM_Lab1_1());
         }
     }
 }

@@ -8,3 +8,13 @@ D:\practical_susu\7 семестр, Алгоритмы и методы пред�
 D:\practical_susu\7 семестр, Алгоритмы и методы представления графической информации\WindowsFormsLab1_BlinovaEM_KE-404\obj\Debug\WindowsFormsLab1_BlinovaEM_KE-404.csproj.CoreCompileInputs.cache
 D:\practical_susu\7 семестр, Алгоритмы и методы представления графической информации\WindowsFormsLab1_BlinovaEM_KE-404\obj\Debug\WindowsFormsLab1_BlinovaEM_KE-404.exe
 D:\practical_susu\7 семестр, Алгоритмы и методы представления графической информации\WindowsFormsLab1_BlinovaEM_KE-404\obj\Debug\WindowsFormsLab1_BlinovaEM_KE-404.pdb
+D:\GitHub\Algorithms-and-methods-for-presenting-graphical-information\WindowsFormsLab1_BlinovaEM_KE-404\bin\Debug\WindowsFormsLab1_BlinovaEM_KE-404.exe.config
+D:\GitHub\Algorithms-and-methods-for-presenting-graphical-information\WindowsFormsLab1_BlinovaEM_KE-404\bin\Debug\WindowsFormsLab1_BlinovaEM_KE-404.exe
+D:\GitHub\Algorithms-and-methods-for-presenting-graphical-information\WindowsFormsLab1_BlinovaEM_KE-404\bin\Debug\WindowsFormsLab1_BlinovaEM_KE-404.pdb
+D:\GitHub\Algorithms-and-methods-for-presenting-graphical-information\WindowsFormsLab1_BlinovaEM_KE-404\obj\Debug\WindowsFormsLab1_BlinovaEM_KE-404.csproj.AssemblyReference.cache
+D:\GitHub\Algorithms-and-methods-for-presenting-graphical-information\WindowsFormsLab1_BlinovaEM_KE-404\obj\Debug\WindowsFormsLab1_BlinovaEM_KE_404.BlinovaEM_Lab1_1.resources
+D:\GitHub\Algorithms-and-methods-for-presenting-graphical-information\WindowsFormsLab1_BlinovaEM_KE-404\obj\Debug\WindowsFormsLab1_BlinovaEM_KE_404.Properties.Resources.resources
+D:\GitHub\Algorithms-and-methods-for-presenting-graphical-information\WindowsFormsLab1_BlinovaEM_KE-404\obj\Debug\WindowsFormsLab1_BlinovaEM_KE-404.csproj.GenerateResource.cache
+D:\GitHub\Algorithms-and-methods-for-presenting-graphical-information\WindowsFormsLab1_BlinovaEM_KE-404\obj\Debug\WindowsFormsLab1_BlinovaEM_KE-404.csproj.CoreCompileInputs.cache
+D:\GitHub\Algorithms-and-methods-for-presenting-graphical-information\WindowsFormsLab1_BlinovaEM_KE-404\obj\Debug\WindowsFormsLab1_BlinovaEM_KE-404.exe
+D:\GitHub\Algorithms-and-methods-for-presenting-graphical-information\WindowsFormsLab1_BlinovaEM_KE-404\obj\Debug\WindowsFormsLab1_BlinovaEM_KE-404.pdb
