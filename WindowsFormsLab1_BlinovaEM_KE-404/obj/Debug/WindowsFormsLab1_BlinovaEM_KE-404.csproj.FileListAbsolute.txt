@@ -18,3 +18,15 @@ D:\GitHub\Algorithms-and-methods-for-presenting-graphical-information\WindowsFor
 D:\GitHub\Algorithms-and-methods-for-presenting-graphical-information\WindowsFormsLab1_BlinovaEM_KE-404\obj\Debug\WindowsFormsLab1_BlinovaEM_KE-404.csproj.CoreCompileInputs.cache
 D:\GitHub\Algorithms-and-methods-for-presenting-graphical-information\WindowsFormsLab1_BlinovaEM_KE-404\obj\Debug\WindowsFormsLab1_BlinovaEM_KE-404.exe
 D:\GitHub\Algorithms-and-methods-for-presenting-graphical-information\WindowsFormsLab1_BlinovaEM_KE-404\obj\Debug\WindowsFormsLab1_BlinovaEM_KE-404.pdb
+E:\Лена документы\GitHub\Algorithms-and-methods-for-presenting-graphical-information\WindowsFormsLab1_BlinovaEM_KE-404\bin\Debug\WindowsFormsLab1_BlinovaEM_KE-404.exe.config
+E:\Лена документы\GitHub\Algorithms-and-methods-for-presenting-graphical-information\WindowsFormsLab1_BlinovaEM_KE-404\bin\Debug\WindowsFormsLab1_BlinovaEM_KE-404.exe
+E:\Лена документы\GitHub\Algorithms-and-methods-for-presenting-graphical-information\WindowsFormsLab1_BlinovaEM_KE-404\bin\Debug\WindowsFormsLab1_BlinovaEM_KE-404.pdb
+E:\Лена документы\GitHub\Algorithms-and-methods-for-presenting-graphical-information\WindowsFormsLab1_BlinovaEM_KE-404\obj\Debug\WindowsFormsLab1_BlinovaEM_KE-404.csproj.AssemblyReference.cache
+E:\Лена документы\GitHub\Algorithms-and-methods-for-presenting-graphical-information\WindowsFormsLab1_BlinovaEM_KE-404\obj\Debug\WindowsFormsLab1_BlinovaEM_KE_404.BlinovaEM_Lab1_1.resources
+E:\Лена документы\GitHub\Algorithms-and-methods-for-presenting-graphical-information\WindowsFormsLab1_BlinovaEM_KE-404\obj\Debug\WindowsFormsLab1_BlinovaEM_KE_404.Properties.Resources.resources
+E:\Лена документы\GitHub\Algorithms-and-methods-for-presenting-graphical-information\WindowsFormsLab1_BlinovaEM_KE-404\obj\Debug\WindowsFormsLab1_BlinovaEM_KE-404.csproj.GenerateResource.cache
+E:\Лена документы\GitHub\Algorithms-and-methods-for-presenting-graphical-information\WindowsFormsLab1_BlinovaEM_KE-404\obj\Debug\WindowsFormsLab1_BlinovaEM_KE-404.csproj.CoreCompileInputs.cache
+E:\Лена документы\GitHub\Algorithms-and-methods-for-presenting-graphical-information\WindowsFormsLab1_BlinovaEM_KE-404\obj\Debug\WindowsFormsLab1_BlinovaEM_KE-404.exe
+E:\Лена документы\GitHub\Algorithms-and-methods-for-presenting-graphical-information\WindowsFormsLab1_BlinovaEM_KE-404\obj\Debug\WindowsFormsLab1_BlinovaEM_KE-404.pdb
+E:\Лена документы\GitHub\Algorithms-and-methods-for-presenting-graphical-information\WindowsFormsLab1_BlinovaEM_KE-404\obj\Debug\WindowsFormsLab1_BlinovaEM_KE_404.FormLab1_2.resources
+E:\Лена документы\GitHub\Algorithms-and-methods-for-presenting-graphical-information\WindowsFormsLab1_BlinovaEM_KE-404\obj\Debug\WindowsFormsLab1_BlinovaEM_KE_404.FormLab1_3.resources

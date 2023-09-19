@@ -52,5 +52,17 @@ namespace WindowsFormsLab1_BlinovaEM_KE_404
             }
             panelAboutAuthor.Visible = false;
         }
+
+        private void buttonLab1_2_Click(object sender, EventArgs e)
+        {
+            var lab1_2 = new FormLab1_2();
+            lab1_2.ShowDialog(this);
+        }
+
+        private void buttonLab1_3_Click(object sender, EventArgs e)
+        {
+            var lab1_3 = new FormLab1_3();
+            lab1_3.ShowDialog(this);
+        }
     }
 }
