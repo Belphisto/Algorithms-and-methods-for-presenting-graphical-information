@@ -36,12 +36,14 @@ namespace WindowsFormsLab1_BlinovaEM_KE_404
             this.authorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.лабораторныеРаботыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.Lab2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.Lab3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.Lab44ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label1 = new System.Windows.Forms.Label();
             this.buttonSaveName = new System.Windows.Forms.Button();
             this.textBoxAuthor = new System.Windows.Forms.TextBox();
             this.panelAboutAuthor = new System.Windows.Forms.Panel();
-            this.buttonLab1_2 = new System.Windows.Forms.Button();
-            this.buttonLab1_3 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.panelAboutAuthor.SuspendLayout();
             this.SuspendLayout();
@@ -60,14 +62,14 @@ namespace WindowsFormsLab1_BlinovaEM_KE_404
             this.editToolStripMenuItem.Name = "editToolStripMenuItem";
             this.editToolStripMenuItem.Size = new System.Drawing.Size(163, 22);
             this.editToolStripMenuItem.Text = "Редактирование";
-            this.editToolStripMenuItem.Click += new System.EventHandler(this.editToolStripMenuItem_Click);
+            this.editToolStripMenuItem.Click += new System.EventHandler(this.EditToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
             this.exitToolStripMenuItem.Size = new System.Drawing.Size(163, 22);
             this.exitToolStripMenuItem.Text = "Выход";
-            this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
+            this.exitToolStripMenuItem.Click += new System.EventHandler(this.ExitToolStripMenuItem_Click);
             // 
             // refToolStripMenuItem
             // 
@@ -83,27 +85,59 @@ namespace WindowsFormsLab1_BlinovaEM_KE_404
             this.authorToolStripMenuItem.Name = "authorToolStripMenuItem";
             this.authorToolStripMenuItem.Size = new System.Drawing.Size(176, 22);
             this.authorToolStripMenuItem.Text = "Автор программы";
-            this.authorToolStripMenuItem.Click += new System.EventHandler(this.authorToolStripMenuItem_Click);
+            this.authorToolStripMenuItem.Click += new System.EventHandler(this.AuthorToolStripMenuItem_Click);
             // 
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
             this.aboutToolStripMenuItem.Size = new System.Drawing.Size(176, 22);
             this.aboutToolStripMenuItem.Text = "О программе";
-            this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
+            this.aboutToolStripMenuItem.Click += new System.EventHandler(this.AboutToolStripMenuItem_Click);
             // 
             // menuStrip1
             // 
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem,
-            this.refToolStripMenuItem});
+            this.refToolStripMenuItem,
+            this.лабораторныеРаботыToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
             this.menuStrip1.Size = new System.Drawing.Size(362, 24);
             this.menuStrip1.TabIndex = 3;
             this.menuStrip1.Text = "menuStrip1";
+            // 
+            // лабораторныеРаботыToolStripMenuItem
+            // 
+            this.лабораторныеРаботыToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.Lab2ToolStripMenuItem,
+            this.Lab3ToolStripMenuItem,
+            this.Lab44ToolStripMenuItem});
+            this.лабораторныеРаботыToolStripMenuItem.Name = "лабораторныеРаботыToolStripMenuItem";
+            this.лабораторныеРаботыToolStripMenuItem.Size = new System.Drawing.Size(145, 20);
+            this.лабораторныеРаботыToolStripMenuItem.Text = "Лабораторные работы";
+            // 
+            // Lab2ToolStripMenuItem
+            // 
+            this.Lab2ToolStripMenuItem.Name = "Lab2ToolStripMenuItem";
+            this.Lab2ToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
+            this.Lab2ToolStripMenuItem.Text = "Лабораторная №2";
+            this.Lab2ToolStripMenuItem.Click += new System.EventHandler(this.Lab2ToolStripMenuItem_Click);
+            // 
+            // Lab3ToolStripMenuItem
+            // 
+            this.Lab3ToolStripMenuItem.Name = "Lab3ToolStripMenuItem";
+            this.Lab3ToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
+            this.Lab3ToolStripMenuItem.Text = "Лабораторная №3";
+            this.Lab3ToolStripMenuItem.Click += new System.EventHandler(this.Lab3ToolStripMenuItem_Click);
+            // 
+            // Lab44ToolStripMenuItem
+            // 
+            this.Lab44ToolStripMenuItem.Name = "Lab44ToolStripMenuItem";
+            this.Lab44ToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
+            this.Lab44ToolStripMenuItem.Text = "Лабораторная №4";
+            this.Lab44ToolStripMenuItem.Click += new System.EventHandler(this.Lab44ToolStripMenuItem_Click);
             // 
             // label1
             // 
@@ -124,7 +158,7 @@ namespace WindowsFormsLab1_BlinovaEM_KE_404
             this.buttonSaveName.TabIndex = 5;
             this.buttonSaveName.Text = "Сохранить";
             this.buttonSaveName.UseVisualStyleBackColor = true;
-            this.buttonSaveName.Click += new System.EventHandler(this.buttonSaveName_Click);
+            this.buttonSaveName.Click += new System.EventHandler(this.ButtonSaveName_Click);
             // 
             // textBoxAuthor
             // 
@@ -139,47 +173,25 @@ namespace WindowsFormsLab1_BlinovaEM_KE_404
             this.panelAboutAuthor.Controls.Add(this.textBoxAuthor);
             this.panelAboutAuthor.Controls.Add(this.buttonSaveName);
             this.panelAboutAuthor.Controls.Add(this.label1);
-            this.panelAboutAuthor.Location = new System.Drawing.Point(0, 25);
+            this.panelAboutAuthor.Location = new System.Drawing.Point(0, 51);
             this.panelAboutAuthor.Margin = new System.Windows.Forms.Padding(2);
             this.panelAboutAuthor.Name = "panelAboutAuthor";
             this.panelAboutAuthor.Size = new System.Drawing.Size(356, 162);
             this.panelAboutAuthor.TabIndex = 7;
             this.panelAboutAuthor.Visible = false;
             // 
-            // buttonLab1_2
-            // 
-            this.buttonLab1_2.Location = new System.Drawing.Point(80, 201);
-            this.buttonLab1_2.Name = "buttonLab1_2";
-            this.buttonLab1_2.Size = new System.Drawing.Size(180, 30);
-            this.buttonLab1_2.TabIndex = 8;
-            this.buttonLab1_2.Text = "Лабораторная работа 2";
-            this.buttonLab1_2.UseVisualStyleBackColor = true;
-            this.buttonLab1_2.Click += new System.EventHandler(this.buttonLab1_2_Click);
-            // 
-            // buttonLab1_3
-            // 
-            this.buttonLab1_3.Location = new System.Drawing.Point(80, 237);
-            this.buttonLab1_3.Name = "buttonLab1_3";
-            this.buttonLab1_3.Size = new System.Drawing.Size(180, 30);
-            this.buttonLab1_3.TabIndex = 9;
-            this.buttonLab1_3.Text = "Лабораторная работа 3";
-            this.buttonLab1_3.UseVisualStyleBackColor = true;
-            this.buttonLab1_3.Click += new System.EventHandler(this.buttonLab1_3_Click);
-            // 
             // BlinovaEM_Lab1_1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(362, 320);
-            this.Controls.Add(this.buttonLab1_3);
-            this.Controls.Add(this.buttonLab1_2);
+            this.ClientSize = new System.Drawing.Size(362, 240);
             this.Controls.Add(this.panelAboutAuthor);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "BlinovaEM_Lab1_1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "BlinovaEM_Lab1_1";
+            this.Text = "Блинова Елена, Лабораторая №1";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.panelAboutAuthor.ResumeLayout(false);
@@ -202,8 +214,10 @@ namespace WindowsFormsLab1_BlinovaEM_KE_404
         private System.Windows.Forms.Button buttonSaveName;
         private System.Windows.Forms.TextBox textBoxAuthor;
         private System.Windows.Forms.Panel panelAboutAuthor;
-        private System.Windows.Forms.Button buttonLab1_2;
-        private System.Windows.Forms.Button buttonLab1_3;
+        private System.Windows.Forms.ToolStripMenuItem лабораторныеРаботыToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem Lab2ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem Lab3ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem Lab44ToolStripMenuItem;
     }
 }
 

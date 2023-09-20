@@ -22,9 +22,6 @@ namespace WindowsFormsLab1_BlinovaEM_KE_404
 
     public abstract class Shape
     {
-        public int Thickness { get; set; }
-        public Color FillColor { get; set; }
-        public Color PenColor { get; set; }
         public abstract void Draw(Graphics graphics);
     }
 }

@@ -66,7 +66,7 @@ namespace WindowsFormsLab1_BlinovaEM_KE_404
             this.buttonAddTypeLine.TabIndex = 2;
             this.buttonAddTypeLine.Text = "Добавить";
             this.buttonAddTypeLine.UseVisualStyleBackColor = true;
-            this.buttonAddTypeLine.Click += new System.EventHandler(this.buttonAddTypeLine_Click);
+            this.buttonAddTypeLine.Click += new System.EventHandler(this.ButtonAddTypeLine_Click);
             // 
             // labelListTypes
             // 
@@ -84,7 +84,7 @@ namespace WindowsFormsLab1_BlinovaEM_KE_404
             this.listBoxTypes.Name = "listBoxTypes";
             this.listBoxTypes.Size = new System.Drawing.Size(260, 95);
             this.listBoxTypes.TabIndex = 4;
-            this.listBoxTypes.SelectedIndexChanged += new System.EventHandler(this.listBoxTypes_SelectedIndexChanged);
+            this.listBoxTypes.SelectedIndexChanged += new System.EventHandler(this.ListBoxTypes_SelectedIndexChanged);
             // 
             // label1
             // 
@@ -102,7 +102,7 @@ namespace WindowsFormsLab1_BlinovaEM_KE_404
             this.comboBoxListFigures.Name = "comboBoxListFigures";
             this.comboBoxListFigures.Size = new System.Drawing.Size(260, 21);
             this.comboBoxListFigures.TabIndex = 6;
-            this.comboBoxListFigures.SelectedIndexChanged += new System.EventHandler(this.comboBoxListFigures_SelectedIndexChanged);
+            this.comboBoxListFigures.SelectedIndexChanged += new System.EventHandler(this.ComboBoxListFigures_SelectedIndexChanged);
             // 
             // labelYourChose
             // 
@@ -130,7 +130,7 @@ namespace WindowsFormsLab1_BlinovaEM_KE_404
             this.buttonShowChose.TabIndex = 9;
             this.buttonShowChose.Text = "Посмотреть";
             this.buttonShowChose.UseVisualStyleBackColor = true;
-            this.buttonShowChose.Click += new System.EventHandler(this.buttonShowChose_Click);
+            this.buttonShowChose.Click += new System.EventHandler(this.ButtonShowChose_Click);
             // 
             // FormLab1_2
             // 
@@ -148,7 +148,7 @@ namespace WindowsFormsLab1_BlinovaEM_KE_404
             this.Controls.Add(this.textBoxInputLine);
             this.Controls.Add(this.labelTypeLine);
             this.Name = "FormLab1_2";
-            this.Text = "FormLab1_2";
+            this.Text = "Блинова Елена, Задание 2 Лабораторной работы №1";
             this.ResumeLayout(false);
             this.PerformLayout();
 

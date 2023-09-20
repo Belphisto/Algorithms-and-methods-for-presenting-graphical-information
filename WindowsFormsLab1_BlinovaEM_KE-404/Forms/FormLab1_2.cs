@@ -30,7 +30,7 @@ namespace WindowsFormsLab1_BlinovaEM_KE_404
             comboBoxListFigures.DataSource = _figures;
         }
 
-        private void buttonAddTypeLine_Click(object sender, EventArgs e)
+        private void ButtonAddTypeLine_Click(object sender, EventArgs e)
         {
             if (textBoxInputLine.Text != "")
             {
@@ -40,7 +40,7 @@ namespace WindowsFormsLab1_BlinovaEM_KE_404
             }
         }
 
-        private void buttonShowChose_Click(object sender, EventArgs e)
+        private void ButtonShowChose_Click(object sender, EventArgs e)
         {
             if (listBoxTypes.SelectedIndex != -1 && comboBoxListFigures.SelectedIndex!= -1)
             {
@@ -52,12 +52,12 @@ namespace WindowsFormsLab1_BlinovaEM_KE_404
             }
         }
 
-        private void listBoxTypes_SelectedIndexChanged(object sender, EventArgs e)
+        private void ListBoxTypes_SelectedIndexChanged(object sender, EventArgs e)
         {
             textBoxOutput.Text = "";
         }
 
-        private void comboBoxListFigures_SelectedIndexChanged(object sender, EventArgs e)
+        private void ComboBoxListFigures_SelectedIndexChanged(object sender, EventArgs e)
         {
             textBoxOutput.Text = "";
         }

@@ -46,6 +46,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EliipseShape.cs" />
+    <Compile Include="Forms\FormCreateObject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormCreateObject.Designer.cs">
+      <DependentUpon>FormCreateObject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormLab1_4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormLab1_4.Designer.cs">
+      <DependentUpon>FormLab1_4.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\FormLab1_2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,15 +77,23 @@
     <Compile Include="Forms\FormStart.Designer.cs">
       <DependentUpon>FormStart.cs</DependentUpon>
     </Compile>
+    <Compile Include="LineShape.cs" />
+    <Compile Include="PointShape.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RectangleShape.cs" />
     <Compile Include="Shape.cs" />
+    <EmbeddedResource Include="Forms\FormCreateObject.resx">
+      <DependentUpon>FormCreateObject.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormLab1_2.resx">
       <DependentUpon>FormLab1_2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormLab1_3.resx">
       <DependentUpon>FormLab1_3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormLab1_4.resx">
+      <DependentUpon>FormLab1_4.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormStart.resx">
       <DependentUpon>FormStart.cs</DependentUpon>
