@@ -48,9 +48,10 @@ namespace WindowsFormsLab1_BlinovaEM_KE_404
             // panelFigure
             // 
             this.panelFigure.BackColor = System.Drawing.Color.AliceBlue;
-            this.panelFigure.Location = new System.Drawing.Point(2, -1);
+            this.panelFigure.Location = new System.Drawing.Point(3, -1);
+            this.panelFigure.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panelFigure.Name = "panelFigure";
-            this.panelFigure.Size = new System.Drawing.Size(801, 452);
+            this.panelFigure.Size = new System.Drawing.Size(1068, 556);
             this.panelFigure.TabIndex = 0;
             this.panelFigure.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PanelFigure_MouseClick);
             this.panelFigure.MouseDown += new System.Windows.Forms.MouseEventHandler(this.PanelFigure_MouseDown);
@@ -59,13 +60,14 @@ namespace WindowsFormsLab1_BlinovaEM_KE_404
             // 
             // contextMenuStripRightClick
             // 
+            this.contextMenuStripRightClick.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.contextMenuStripRightClick.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.typeLineToolStripMenuItem,
             this.thicknessLineToolStripMenuItem,
             this.colorLineToolStripMenuItem,
             this.colorBackgroundToolStripMenuItem});
             this.contextMenuStripRightClick.Name = "contextMenuStripRightClick";
-            this.contextMenuStripRightClick.Size = new System.Drawing.Size(164, 92);
+            this.contextMenuStripRightClick.Size = new System.Drawing.Size(190, 100);
             // 
             // typeLineToolStripMenuItem
             // 
@@ -73,20 +75,20 @@ namespace WindowsFormsLab1_BlinovaEM_KE_404
             this.neprerivToolStripMenuItem,
             this.punctirToolStripMenuItem});
             this.typeLineToolStripMenuItem.Name = "typeLineToolStripMenuItem";
-            this.typeLineToolStripMenuItem.Size = new System.Drawing.Size(163, 22);
+            this.typeLineToolStripMenuItem.Size = new System.Drawing.Size(189, 24);
             this.typeLineToolStripMenuItem.Text = "Тип линии";
             // 
             // neprerivToolStripMenuItem
             // 
             this.neprerivToolStripMenuItem.Name = "neprerivToolStripMenuItem";
-            this.neprerivToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
+            this.neprerivToolStripMenuItem.Size = new System.Drawing.Size(190, 26);
             this.neprerivToolStripMenuItem.Text = "Непрерывная";
             this.neprerivToolStripMenuItem.Click += new System.EventHandler(this.NeprerivToolStripMenuItem_Click);
             // 
             // punctirToolStripMenuItem
             // 
             this.punctirToolStripMenuItem.Name = "punctirToolStripMenuItem";
-            this.punctirToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
+            this.punctirToolStripMenuItem.Size = new System.Drawing.Size(190, 26);
             this.punctirToolStripMenuItem.Text = "Пунктирная";
             this.punctirToolStripMenuItem.Click += new System.EventHandler(this.PunctirToolStripMenuItem_Click);
             // 
@@ -97,52 +99,54 @@ namespace WindowsFormsLab1_BlinovaEM_KE_404
             this.toolStripMenuItem10,
             this.toolStripMenuItem15});
             this.thicknessLineToolStripMenuItem.Name = "thicknessLineToolStripMenuItem";
-            this.thicknessLineToolStripMenuItem.Size = new System.Drawing.Size(163, 22);
+            this.thicknessLineToolStripMenuItem.Size = new System.Drawing.Size(189, 24);
             this.thicknessLineToolStripMenuItem.Text = "Толщина линии";
             // 
             // toolStripMenuItem5
             // 
             this.toolStripMenuItem5.Name = "toolStripMenuItem5";
-            this.toolStripMenuItem5.Size = new System.Drawing.Size(86, 22);
+            this.toolStripMenuItem5.Size = new System.Drawing.Size(108, 26);
             this.toolStripMenuItem5.Text = "5";
             this.toolStripMenuItem5.Click += new System.EventHandler(this.ToolStripMenuItem5_Click);
             // 
             // toolStripMenuItem10
             // 
             this.toolStripMenuItem10.Name = "toolStripMenuItem10";
-            this.toolStripMenuItem10.Size = new System.Drawing.Size(86, 22);
+            this.toolStripMenuItem10.Size = new System.Drawing.Size(108, 26);
             this.toolStripMenuItem10.Text = "10";
             this.toolStripMenuItem10.Click += new System.EventHandler(this.ToolStripMenuItem10_Click);
             // 
             // toolStripMenuItem15
             // 
             this.toolStripMenuItem15.Name = "toolStripMenuItem15";
-            this.toolStripMenuItem15.Size = new System.Drawing.Size(86, 22);
+            this.toolStripMenuItem15.Size = new System.Drawing.Size(108, 26);
             this.toolStripMenuItem15.Text = "15";
             this.toolStripMenuItem15.Click += new System.EventHandler(this.ToolStripMenuItem15_Click);
             // 
             // colorLineToolStripMenuItem
             // 
             this.colorLineToolStripMenuItem.Name = "colorLineToolStripMenuItem";
-            this.colorLineToolStripMenuItem.Size = new System.Drawing.Size(163, 22);
+            this.colorLineToolStripMenuItem.Size = new System.Drawing.Size(189, 24);
             this.colorLineToolStripMenuItem.Text = "Цвет линии";
             this.colorLineToolStripMenuItem.Click += new System.EventHandler(this.ColorLineToolStripMenuItem_Click);
             // 
             // colorBackgroundToolStripMenuItem
             // 
             this.colorBackgroundToolStripMenuItem.Name = "colorBackgroundToolStripMenuItem";
-            this.colorBackgroundToolStripMenuItem.Size = new System.Drawing.Size(163, 22);
+            this.colorBackgroundToolStripMenuItem.Size = new System.Drawing.Size(189, 24);
             this.colorBackgroundToolStripMenuItem.Text = "Цвет фона";
             this.colorBackgroundToolStripMenuItem.Click += new System.EventHandler(this.ColorBackgroundToolStripMenuItem_Click);
             // 
             // FormLab1_3
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.panelFigure);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FormLab1_3";
             this.Text = "Блинова Елена, Задание 3 Лабораторной работы №1";
+            this.Load += new System.EventHandler(this.FormLab1_3_Load);
             this.contextMenuStripRightClick.ResumeLayout(false);
             this.ResumeLayout(false);
 

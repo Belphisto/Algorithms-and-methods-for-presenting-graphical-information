@@ -33,7 +33,20 @@ namespace WindowsFormsLab1_BlinovaEM_KE_404
 
         private void ButtonCreateObj_Click(object sender, EventArgs e)
         {
-            if (ValidateInput(textBoxCoordinate.Text) && ValidateInput(textBoxWeight.Text) && comboBoxFigure.SelectedIndex != -1)
+            if (ValidateInput(textBoxCoordinate.Text) && comboBoxFigure.SelectedItem == "Точка")
+            {
+                Shape newShape = null;
+                int[] coordinate = ConvertToParams(textBoxCoordinate.Text);
+                newShape = new PointShape(coordinate[0], coordinate[1]);
+
+                if (newShape != null)
+                {
+                    // Вызов события для передачи созданного объекта Shape
+                    ShapeCreated?.Invoke(newShape);
+                    this.Close();
+                }
+            }
+            else if (ValidateInput(textBoxCoordinate.Text) && ValidateInput(textBoxWeight.Text) && comboBoxFigure.SelectedIndex != -1)
             {
                 Shape newShape = null;
                 string selectedFigure = comboBoxFigure.SelectedItem.ToString();
@@ -41,9 +54,9 @@ namespace WindowsFormsLab1_BlinovaEM_KE_404
                 int[] coordinate = ConvertToParams(textBoxCoordinate.Text);
                 switch (selectedFigure)
                 {
-                    case "Точка":
-                        newShape = new PointShape(coordinate[0], coordinate[1], size[0], size[1]);
-                        break;
+                    //case "Точка":
+                        //newShape = new PointShape(coordinate[0], coordinate[1], size[0], size[1]);
+                        //break;
                     case "Линия":
                         newShape = new LineShape(coordinate[0], coordinate[1], size[0], size[1]);
                         break;

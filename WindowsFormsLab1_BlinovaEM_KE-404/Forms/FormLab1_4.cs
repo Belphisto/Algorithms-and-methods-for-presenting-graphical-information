@@ -13,6 +13,7 @@ namespace WindowsFormsLab1_BlinovaEM_KE_404
     public partial class FormLab1_4 : Form
     {
         private List<Shape> shapesList = new List<Shape>();
+        Bitmap bitmap;
 
         public FormLab1_4()
         {
@@ -22,6 +23,7 @@ namespace WindowsFormsLab1_BlinovaEM_KE_404
             shapesPicture.Visible = true;
             shapesPicture.Paint += ShapesPanel_Paint;
             this.Controls.Add(shapesPicture);
+            //bitmap = new Bitmap(shapesPicture.Width, shapesPicture.Height);
         }
 
         private void ExitToolStripMenuItem_Click(object sender, EventArgs e)
@@ -39,6 +41,11 @@ namespace WindowsFormsLab1_BlinovaEM_KE_404
                 shapesPicture.Invalidate();
 
             };
+            /*form.PointCreated += (point) =>
+              {
+                  bitmap.SetPixel(point.X, point.Y, Color.Red);
+                  shapesPicture.Invalidate();
+              };*/
             form.ShowDialog(this);
 
         }
@@ -53,7 +60,9 @@ namespace WindowsFormsLab1_BlinovaEM_KE_404
             
         }
 
+        private void createToolStripMenuItem_Click(object sender, EventArgs e)
+        {
 
-
+        }
     }
 }

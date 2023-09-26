@@ -106,7 +106,10 @@ namespace WindowsFormsLab1_BlinovaEM_KE_404
             figure.IsMove = false;
         }
 
+        private void FormLab1_3_Load(object sender, EventArgs e)
+        {
 
+        }
     }
 
     

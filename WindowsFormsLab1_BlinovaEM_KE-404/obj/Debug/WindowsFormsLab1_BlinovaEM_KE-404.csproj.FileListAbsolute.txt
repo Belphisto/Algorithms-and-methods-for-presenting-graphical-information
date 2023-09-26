@@ -32,3 +32,7 @@ E:\Лена документы\GitHub\Algorithms-and-methods-for-presenting-grap
 E:\Лена документы\GitHub\Algorithms-and-methods-for-presenting-graphical-information\WindowsFormsLab1_BlinovaEM_KE-404\obj\Debug\WindowsFormsLab1_BlinovaEM_KE_404.FormLab1_3.resources
 E:\Лена документы\GitHub\Algorithms-and-methods-for-presenting-graphical-information\WindowsFormsLab1_BlinovaEM_KE-404\obj\Debug\WindowsFormsLab1_BlinovaEM_KE_404.FormLab1_4.resources
 E:\Лена документы\GitHub\Algorithms-and-methods-for-presenting-graphical-information\WindowsFormsLab1_BlinovaEM_KE-404\obj\Debug\WindowsFormsLab1_BlinovaEM_KE_404.FormCreateObject.resources
+D:\GitHub\Algorithms-and-methods-for-presenting-graphical-information\WindowsFormsLab1_BlinovaEM_KE-404\obj\Debug\WindowsFormsLab1_BlinovaEM_KE_404.FormCreateObject.resources
+D:\GitHub\Algorithms-and-methods-for-presenting-graphical-information\WindowsFormsLab1_BlinovaEM_KE-404\obj\Debug\WindowsFormsLab1_BlinovaEM_KE_404.FormLab1_2.resources
+D:\GitHub\Algorithms-and-methods-for-presenting-graphical-information\WindowsFormsLab1_BlinovaEM_KE-404\obj\Debug\WindowsFormsLab1_BlinovaEM_KE_404.FormLab1_3.resources
+D:\GitHub\Algorithms-and-methods-for-presenting-graphical-information\WindowsFormsLab1_BlinovaEM_KE-404\obj\Debug\WindowsFormsLab1_BlinovaEM_KE_404.FormLab1_4.resources

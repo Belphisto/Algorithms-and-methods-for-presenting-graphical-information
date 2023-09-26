@@ -9,20 +9,24 @@ namespace WindowsFormsLab1_BlinovaEM_KE_404
 {
     public class PointShape : Shape
     {
-        private Rectangle _rect;
+        private Point _point;
         public Color PaintColor { get; set; }
+        //private Bitmap _bitmap;
 
-        public PointShape(int x, int y, int w, int h)
+        public PointShape(int x, int y)
         {
-            _rect = new Rectangle(x, y, w, h);
-            PaintColor = Color.DarkBlue;
+            _point = new Point(x, y);
+            PaintColor = Color.Red;
+            //_bitmap = new Bitmap(10, 10);
+            
         }
 
         public override void Draw(Graphics graphics)
         {
             using (Brush brush = new SolidBrush(PaintColor))
             {
-                graphics.FillEllipse(brush, _rect); 
+                graphics.FillRectangle(brush, _point.X, _point.Y, 1, 1);
+                
             }
         }
     }
