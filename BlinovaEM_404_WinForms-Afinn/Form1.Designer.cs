@@ -52,7 +52,7 @@ namespace BlinovaEM_404_WinForms_Afinn
             // 
             // panel
             // 
-            this.panel.BackColor = System.Drawing.SystemColors.Window;
+            this.panel.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.panel.Location = new System.Drawing.Point(190, 42);
             this.panel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel.Name = "panel";
@@ -135,20 +135,20 @@ namespace BlinovaEM_404_WinForms_Afinn
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(9, 381);
+            this.label4.Location = new System.Drawing.Point(9, 366);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(152, 15);
+            this.label4.Size = new System.Drawing.Size(159, 30);
             this.label4.TabIndex = 9;
-            this.label4.Text = "Мастшабировать по оси х";
+            this.label4.Text = "Коэффициент\r\nмастшабирования по оси х";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(11, 423);
+            this.label5.Location = new System.Drawing.Point(9, 423);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(152, 15);
+            this.label5.Size = new System.Drawing.Size(159, 30);
             this.label5.TabIndex = 10;
-            this.label5.Text = "Мастшабировать по оси у";
+            this.label5.Text = "Коэффициент \r\nмастшабирования по оси у";
             // 
             // label6
             // 
@@ -160,7 +160,7 @@ namespace BlinovaEM_404_WinForms_Afinn
             // 
             // textBoxReSizeY
             // 
-            this.textBoxReSizeY.Location = new System.Drawing.Point(43, 440);
+            this.textBoxReSizeY.Location = new System.Drawing.Point(43, 455);
             this.textBoxReSizeY.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBoxReSizeY.Name = "textBoxReSizeY";
             this.textBoxReSizeY.Size = new System.Drawing.Size(85, 23);
@@ -168,14 +168,14 @@ namespace BlinovaEM_404_WinForms_Afinn
             // 
             // buttonReSize
             // 
-            this.buttonReSize.Location = new System.Drawing.Point(20, 465);
+            this.buttonReSize.Location = new System.Drawing.Point(18, 482);
             this.buttonReSize.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonReSize.Name = "buttonReSize";
             this.buttonReSize.Size = new System.Drawing.Size(133, 29);
             this.buttonReSize.TabIndex = 14;
             this.buttonReSize.Text = "Изменить размер\r\n";
             this.buttonReSize.UseVisualStyleBackColor = true;
-            this.buttonReSize.Click += new System.EventHandler(this.buttonReSize_Click);
+            this.buttonReSize.Click += new System.EventHandler(this.ButtonReSize_Click);
             // 
             // textBoxReSizeX
             // 

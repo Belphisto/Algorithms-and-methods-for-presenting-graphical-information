@@ -22,61 +22,75 @@ namespace BlinovaEM_404_WinForms_Afinn
             panel_size = new int[] {panel.Width, panel.Height };
         }
 
+        private void FillPanel()
+        {
+            using Graphics graphics = panel.CreateGraphics();
+            graphics.Clear(panel.BackColor);
+            rectangle.SaveChanges();
+            rectangle.DrawFigure(graphics);
+        }
+
         private void ButtonCreateFigure_Click(object sender, EventArgs e)
         {
-            using (Graphics graphics = panel.CreateGraphics())
-            {
-                rectangle.DrawFigure(graphics);
-            }
+            FillPanel();
+            ButtonCreateFigure.Enabled = false;
         }
 
         private void ButtonMove_Click(object sender, EventArgs e)
         {
             if (CheckValidUserInput(textBoxMoveX.Text, out int moveX) && CheckValidUserInput(textBoxMoveY.Text, out int moveY))
             {
-                List<PointF> tempPoints = rectangle.CurrentPoints;
+                rectangle.Move(moveX, moveY);
 
-                for (int i = 0; i < tempPoints.Count; i++)
+                if (!rectangle.IsFigureOutOfPanel(panel_size))
                 {
-                    tempPoints[i] = new PointF(tempPoints[i].X + moveX, tempPoints[i].Y + moveY);
-                }
-
-                if (!MyFigure.IsFigureOutOfPanel(tempPoints, panel_size))
-                {
-                    rectangle.CurrentPoints = tempPoints;
-                    ClearPanel();
-                    using (Graphics graphics = panel.CreateGraphics())
-                    {
-                        rectangle.DrawFigure(graphics);
-                    }
+                    FillPanel();
                 }
                 else
                 {
+                    rectangle.DiscardChanges();
                     MessageBox.Show("Фигура выходит за пределы поля");
                 }
             }
-            else
-            {
-                MessageBox.Show("Введите целые числа для перемещения фигуры");
-            }
-        }
-
-        private void ClearPanel()
-        {
-            using (Graphics graphics = panel.CreateGraphics())
-            {
-                graphics.Clear(panel.BackColor);
-            }
+            else MessageBox.Show("Введите целые числа для перемещения фигуры");
+            
         }
 
         private void ButtonRotate_Click(object sender, EventArgs e)
         {
+            if (CheckValidUserInput(textBoxRotate.Text, out float angle))
+            {
+                rectangle.Rotate(angle);
 
+                if (!rectangle.IsFigureOutOfPanel(panel_size))
+                {
+                    FillPanel();
+                }
+                else
+                {
+                    rectangle.DiscardChanges();
+                    MessageBox.Show("Фигура выходит за пределы поля");
+                }
+            }
+            else MessageBox.Show("Введите целое число для угла поворота");
         }
 
-        private void buttonReSize_Click(object sender, EventArgs e)
+        private void ButtonReSize_Click(object sender, EventArgs e)
         {
-
+            if (CheckValidUserInput(textBoxReSizeX.Text, out float resizeX) && CheckValidUserInput(textBoxReSizeY.Text, out float resizeY))
+            {
+                rectangle.Resize(resizeX, resizeY);
+                if (!rectangle.IsFigureOutOfPanel(panel_size))
+                {
+                    FillPanel();
+                }
+                else
+                {
+                    rectangle.DiscardChanges();
+                    MessageBox.Show("Фигура выходит за пределы поля");
+                }
+            }
+            else MessageBox.Show("Введите дробное число для изменения размера");
         }
 
         private static bool CheckValidUserInput(string field, out int k)
@@ -91,13 +105,12 @@ namespace BlinovaEM_404_WinForms_Afinn
 
         private static bool CheckValidUserInput(string field, out float k)
         {
-            if (field == "") { k = 0; return true; }
+            if (field == "") { k = 1; return true; }
             if (float.TryParse(field, out k))
             {
                 return true;
             }
             return false;
         }
-
     }
 }
