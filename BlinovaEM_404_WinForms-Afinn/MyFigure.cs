@@ -9,48 +9,57 @@ namespace BlinovaEM_404_WinForms_Afinn
 {
     public class MyFigure
     {
-        private List<Point> _mainPoints;
-        private List<Point> _currentPoints;
+        private List<PointF> _mainPoints;
+        public List<PointF> CurrentPoints { get; set; }
         private Color _color;
 
         public MyFigure()
         {
-            _mainPoints = new List<Point> { new Point(10, 10), new Point(20, 50), new Point (20,80), new Point(10, 80) };
-            _currentPoints = new List<Point>();
-            _color = Color.Aqua;
+            _mainPoints = new List<PointF> { new Point(0, 60), new Point(40, 0), new Point (140,0), new Point(100, 60) };
+            CurrentPoints = new List<PointF>(_mainPoints);
+            _color = Color.Black;
         }
 
-        public MyFigure(Color color, List<Point> points)
+        public MyFigure(Color color, List<PointF> points)
         {
             _mainPoints =points;
-            _currentPoints = new List<Point>();
+            CurrentPoints = new List<PointF>(_mainPoints);
             _color = color;
         }
 
-        private void DrawFigure(Bitmap bitmap)
+        public void DrawFigure(Graphics graphics)
         {
-           // ClearF();
+            //_mainPoints = CurrentPoints;
+            //ClearFigure();
+            Pen pen = new(_color);
+            pen.Width = 2.0f;
 
-            using (Graphics graphics = Graphics.FromImage(bitmap))
+            // Соединение точек
+            for (int i = 0; i < CurrentPoints.Count; i++)
             {
-                Pen pen = new Pen(_color);
+                graphics.DrawLine(pen, CurrentPoints[i], CurrentPoints[(i + 1) % CurrentPoints.Count]);
+            }
+        }
 
-                // Соединение точек
-                for (int i = 0; i < _currentPoints.Count; i++)
+        public void ClearFigure()
+        {
+            CurrentPoints.Clear();
+        }
+
+        public static bool IsFigureOutOfPanel(List<PointF> points, int[] size)
+        {
+            foreach (var point in points)
+            {
+                if (point.X < 0 || point.X > size[0] || point.Y < 0 || point.Y > size[1])
                 {
-                    graphics.DrawLine(pen, _currentPoints[i], _currentPoints[(i + 1) % _currentPoints.Count]);
+                    return true;
                 }
-
             }
+            return false;
         }
 
-        private void ClearFigure(Bitmap bitmap)
-        {
-            using (Graphics graphics = Graphics.FromImage(bitmap))
-            {
-                graphics.Clear(Color.White);
-            }
-        }
+
+
     }
 
     

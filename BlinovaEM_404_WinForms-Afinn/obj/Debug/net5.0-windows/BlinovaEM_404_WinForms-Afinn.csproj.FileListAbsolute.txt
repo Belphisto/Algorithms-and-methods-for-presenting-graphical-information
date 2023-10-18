@@ -16,3 +16,21 @@ D:\GitHub\Algorithms-and-methods-for-presenting-graphical-information\BlinovaEM_
 D:\GitHub\Algorithms-and-methods-for-presenting-graphical-information\BlinovaEM_404_WinForms-Afinn\obj\Debug\net5.0-windows\ref\BlinovaEM_404_WinForms-Afinn.dll
 D:\GitHub\Algorithms-and-methods-for-presenting-graphical-information\BlinovaEM_404_WinForms-Afinn\obj\Debug\net5.0-windows\BlinovaEM_404_WinForms-Afinn.pdb
 D:\GitHub\Algorithms-and-methods-for-presenting-graphical-information\BlinovaEM_404_WinForms-Afinn\obj\Debug\net5.0-windows\BlinovaEM_404_WinForms-Afinn.genruntimeconfig.cache
+E:\Лена документы\GitHub\Algorithms-and-methods-for-presenting-graphical-information\BlinovaEM_404_WinForms-Afinn\bin\Debug\net5.0-windows\BlinovaEM_404_WinForms-Afinn.exe
+E:\Лена документы\GitHub\Algorithms-and-methods-for-presenting-graphical-information\BlinovaEM_404_WinForms-Afinn\bin\Debug\net5.0-windows\BlinovaEM_404_WinForms-Afinn.deps.json
+E:\Лена документы\GitHub\Algorithms-and-methods-for-presenting-graphical-information\BlinovaEM_404_WinForms-Afinn\bin\Debug\net5.0-windows\BlinovaEM_404_WinForms-Afinn.runtimeconfig.json
+E:\Лена документы\GitHub\Algorithms-and-methods-for-presenting-graphical-information\BlinovaEM_404_WinForms-Afinn\bin\Debug\net5.0-windows\BlinovaEM_404_WinForms-Afinn.runtimeconfig.dev.json
+E:\Лена документы\GitHub\Algorithms-and-methods-for-presenting-graphical-information\BlinovaEM_404_WinForms-Afinn\bin\Debug\net5.0-windows\BlinovaEM_404_WinForms-Afinn.dll
+E:\Лена документы\GitHub\Algorithms-and-methods-for-presenting-graphical-information\BlinovaEM_404_WinForms-Afinn\bin\Debug\net5.0-windows\ref\BlinovaEM_404_WinForms-Afinn.dll
+E:\Лена документы\GitHub\Algorithms-and-methods-for-presenting-graphical-information\BlinovaEM_404_WinForms-Afinn\bin\Debug\net5.0-windows\BlinovaEM_404_WinForms-Afinn.pdb
+E:\Лена документы\GitHub\Algorithms-and-methods-for-presenting-graphical-information\BlinovaEM_404_WinForms-Afinn\obj\Debug\net5.0-windows\BlinovaEM_404_WinForms-Afinn.csproj.AssemblyReference.cache
+E:\Лена документы\GitHub\Algorithms-and-methods-for-presenting-graphical-information\BlinovaEM_404_WinForms-Afinn\obj\Debug\net5.0-windows\BlinovaEM_404_WinForms_Afinn.Form1.resources
+E:\Лена документы\GitHub\Algorithms-and-methods-for-presenting-graphical-information\BlinovaEM_404_WinForms-Afinn\obj\Debug\net5.0-windows\BlinovaEM_404_WinForms-Afinn.csproj.GenerateResource.cache
+E:\Лена документы\GitHub\Algorithms-and-methods-for-presenting-graphical-information\BlinovaEM_404_WinForms-Afinn\obj\Debug\net5.0-windows\BlinovaEM_404_WinForms-Afinn.GeneratedMSBuildEditorConfig.editorconfig
+E:\Лена документы\GitHub\Algorithms-and-methods-for-presenting-graphical-information\BlinovaEM_404_WinForms-Afinn\obj\Debug\net5.0-windows\BlinovaEM_404_WinForms-Afinn.AssemblyInfoInputs.cache
+E:\Лена документы\GitHub\Algorithms-and-methods-for-presenting-graphical-information\BlinovaEM_404_WinForms-Afinn\obj\Debug\net5.0-windows\BlinovaEM_404_WinForms-Afinn.AssemblyInfo.cs
+E:\Лена документы\GitHub\Algorithms-and-methods-for-presenting-graphical-information\BlinovaEM_404_WinForms-Afinn\obj\Debug\net5.0-windows\BlinovaEM_404_WinForms-Afinn.csproj.CoreCompileInputs.cache
+E:\Лена документы\GitHub\Algorithms-and-methods-for-presenting-graphical-information\BlinovaEM_404_WinForms-Afinn\obj\Debug\net5.0-windows\BlinovaEM_404_WinForms-Afinn.dll
+E:\Лена документы\GitHub\Algorithms-and-methods-for-presenting-graphical-information\BlinovaEM_404_WinForms-Afinn\obj\Debug\net5.0-windows\ref\BlinovaEM_404_WinForms-Afinn.dll
+E:\Лена документы\GitHub\Algorithms-and-methods-for-presenting-graphical-information\BlinovaEM_404_WinForms-Afinn\obj\Debug\net5.0-windows\BlinovaEM_404_WinForms-Afinn.pdb
+E:\Лена документы\GitHub\Algorithms-and-methods-for-presenting-graphical-information\BlinovaEM_404_WinForms-Afinn\obj\Debug\net5.0-windows\BlinovaEM_404_WinForms-Afinn.genruntimeconfig.cache
