@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "BlinovaEM_404_WinForms-Afinn/1.0.0": {
+        "runtime": {
+          "BlinovaEM_404_WinForms-Afinn.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BlinovaEM_404_WinForms-Afinn/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
