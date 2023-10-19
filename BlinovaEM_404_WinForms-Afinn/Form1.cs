@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Globalization;
+
 
 namespace BlinovaEM_404_WinForms_Afinn
 {
@@ -20,6 +22,12 @@ namespace BlinovaEM_404_WinForms_Afinn
             InitializeComponent();
             rectangle = new MyFigure();
             panel_size = new int[] {panel.Width, panel.Height };
+
+            textBoxMoveX.Text = "0";
+            textBoxMoveY.Text = "0";
+            textBoxRotate.Text = "0";
+            textBoxReSizeX.Text = "1";
+            textBoxReSizeY.Text = "1";
         }
 
         private void FillPanel()
@@ -90,13 +98,13 @@ namespace BlinovaEM_404_WinForms_Afinn
                     MessageBox.Show("Фигура выходит за пределы поля");
                 }
             }
-            else MessageBox.Show("Введите дробное число для изменения размера");
+            else MessageBox.Show("Введите дробное число через знак . для изменения размера");
         }
 
         private static bool CheckValidUserInput(string field, out int k)
         {
             if (field == "") { k = 0; return true; }
-            if (int.TryParse(field, out k))
+            if (int.TryParse(field, NumberStyles.Float, CultureInfo.InvariantCulture, out k))
             {
                 return true;
             }
@@ -105,8 +113,8 @@ namespace BlinovaEM_404_WinForms_Afinn
 
         private static bool CheckValidUserInput(string field, out float k)
         {
-            if (field == "") { k = 1; return true; }
-            if (float.TryParse(field, out k))
+            if (field == "" || field == "0") { k = 1; return true; }
+            if (float.TryParse(field, NumberStyles.Float, CultureInfo.InvariantCulture, out k))
             {
                 return true;
             }

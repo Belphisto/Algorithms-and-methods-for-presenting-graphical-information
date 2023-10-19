@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "JJjTuEqh5+WwyquGxhrG12M17tmHqmoOWXBsiAqRCOLzMkV5oi3vnv96j9HXEham3p2sXft8uSVEuZwPmHxcOg==",
+  "dgSpecHash": "0uwg/rrZIk+0tKzh+UUAIG5s/bsrXb263O/humGEp2Ii/wLU+IJmtmU6LjzmLyZRc5aAVYgNZpDYiTB8/lhoWg==",
   "success": true,
-  "projectFilePath": "E:\\Лена документы\\GitHub\\Algorithms-and-methods-for-presenting-graphical-information\\BlinovaEM_404_WinForms-Afinn\\BlinovaEM_404_WinForms-Afinn.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\GitHub\\Algorithms-and-methods-for-presenting-graphical-information\\BlinovaEM_404_WinForms-Afinn\\BlinovaEM_404_WinForms-Afinn.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Elena\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.13\\microsoft.netcore.app.host.win-x64.5.0.13.nupkg.sha512"
+  ],
   "logs": []
 }
