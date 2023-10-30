@@ -1,0 +1,18 @@
+C:\Users\b\source\repos\Coloring closed surfaces\Coloring closed surfaces\bin\Debug\net5.0-windows\Coloring closed surfaces.exe
+C:\Users\b\source\repos\Coloring closed surfaces\Coloring closed surfaces\bin\Debug\net5.0-windows\Coloring closed surfaces.deps.json
+C:\Users\b\source\repos\Coloring closed surfaces\Coloring closed surfaces\bin\Debug\net5.0-windows\Coloring closed surfaces.runtimeconfig.json
+C:\Users\b\source\repos\Coloring closed surfaces\Coloring closed surfaces\bin\Debug\net5.0-windows\Coloring closed surfaces.runtimeconfig.dev.json
+C:\Users\b\source\repos\Coloring closed surfaces\Coloring closed surfaces\bin\Debug\net5.0-windows\Coloring closed surfaces.dll
+C:\Users\b\source\repos\Coloring closed surfaces\Coloring closed surfaces\bin\Debug\net5.0-windows\ref\Coloring closed surfaces.dll
+C:\Users\b\source\repos\Coloring closed surfaces\Coloring closed surfaces\bin\Debug\net5.0-windows\Coloring closed surfaces.pdb
+C:\Users\b\source\repos\Coloring closed surfaces\Coloring closed surfaces\obj\Debug\net5.0-windows\Coloring closed surfaces.csproj.AssemblyReference.cache
+C:\Users\b\source\repos\Coloring closed surfaces\Coloring closed surfaces\obj\Debug\net5.0-windows\Coloring_closed_surfaces.Form1.resources
+C:\Users\b\source\repos\Coloring closed surfaces\Coloring closed surfaces\obj\Debug\net5.0-windows\Coloring closed surfaces.csproj.GenerateResource.cache
+C:\Users\b\source\repos\Coloring closed surfaces\Coloring closed surfaces\obj\Debug\net5.0-windows\Coloring closed surfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\b\source\repos\Coloring closed surfaces\Coloring closed surfaces\obj\Debug\net5.0-windows\Coloring closed surfaces.AssemblyInfoInputs.cache
+C:\Users\b\source\repos\Coloring closed surfaces\Coloring closed surfaces\obj\Debug\net5.0-windows\Coloring closed surfaces.AssemblyInfo.cs
+C:\Users\b\source\repos\Coloring closed surfaces\Coloring closed surfaces\obj\Debug\net5.0-windows\Coloring closed surfaces.csproj.CoreCompileInputs.cache
+C:\Users\b\source\repos\Coloring closed surfaces\Coloring closed surfaces\obj\Debug\net5.0-windows\Coloring closed surfaces.dll
+C:\Users\b\source\repos\Coloring closed surfaces\Coloring closed surfaces\obj\Debug\net5.0-windows\ref\Coloring closed surfaces.dll
+C:\Users\b\source\repos\Coloring closed surfaces\Coloring closed surfaces\obj\Debug\net5.0-windows\Coloring closed surfaces.pdb
+C:\Users\b\source\repos\Coloring closed surfaces\Coloring closed surfaces\obj\Debug\net5.0-windows\Coloring closed surfaces.genruntimeconfig.cache
