@@ -1,0 +1,20 @@
+E:\Лена документы\GitHub\Algorithms-and-methods-for-presenting-graphical-information\Tree rendering\Tree rendering\bin\Debug\net5.0-windows\Tree rendering.exe
+E:\Лена документы\GitHub\Algorithms-and-methods-for-presenting-graphical-information\Tree rendering\Tree rendering\bin\Debug\net5.0-windows\Tree rendering.deps.json
+E:\Лена документы\GitHub\Algorithms-and-methods-for-presenting-graphical-information\Tree rendering\Tree rendering\bin\Debug\net5.0-windows\Tree rendering.runtimeconfig.json
+E:\Лена документы\GitHub\Algorithms-and-methods-for-presenting-graphical-information\Tree rendering\Tree rendering\bin\Debug\net5.0-windows\Tree rendering.runtimeconfig.dev.json
+E:\Лена документы\GitHub\Algorithms-and-methods-for-presenting-graphical-information\Tree rendering\Tree rendering\bin\Debug\net5.0-windows\Tree rendering.dll
+E:\Лена документы\GitHub\Algorithms-and-methods-for-presenting-graphical-information\Tree rendering\Tree rendering\bin\Debug\net5.0-windows\ref\Tree rendering.dll
+E:\Лена документы\GitHub\Algorithms-and-methods-for-presenting-graphical-information\Tree rendering\Tree rendering\bin\Debug\net5.0-windows\Tree rendering.pdb
+E:\Лена документы\GitHub\Algorithms-and-methods-for-presenting-graphical-information\Tree rendering\Tree rendering\obj\Debug\net5.0-windows\Tree rendering.csproj.AssemblyReference.cache
+E:\Лена документы\GitHub\Algorithms-and-methods-for-presenting-graphical-information\Tree rendering\Tree rendering\obj\Debug\net5.0-windows\Tree_rendering.Form1.resources
+E:\Лена документы\GitHub\Algorithms-and-methods-for-presenting-graphical-information\Tree rendering\Tree rendering\obj\Debug\net5.0-windows\Tree rendering.csproj.GenerateResource.cache
+E:\Лена документы\GitHub\Algorithms-and-methods-for-presenting-graphical-information\Tree rendering\Tree rendering\obj\Debug\net5.0-windows\Tree rendering.GeneratedMSBuildEditorConfig.editorconfig
+E:\Лена документы\GitHub\Algorithms-and-methods-for-presenting-graphical-information\Tree rendering\Tree rendering\obj\Debug\net5.0-windows\Tree rendering.AssemblyInfoInputs.cache
+E:\Лена документы\GitHub\Algorithms-and-methods-for-presenting-graphical-information\Tree rendering\Tree rendering\obj\Debug\net5.0-windows\Tree rendering.AssemblyInfo.cs
+E:\Лена документы\GitHub\Algorithms-and-methods-for-presenting-graphical-information\Tree rendering\Tree rendering\obj\Debug\net5.0-windows\Tree rendering.csproj.CoreCompileInputs.cache
+E:\Лена документы\GitHub\Algorithms-and-methods-for-presenting-graphical-information\Tree rendering\Tree rendering\obj\Debug\net5.0-windows\Tree rendering.dll
+E:\Лена документы\GitHub\Algorithms-and-methods-for-presenting-graphical-information\Tree rendering\Tree rendering\obj\Debug\net5.0-windows\ref\Tree rendering.dll
+E:\Лена документы\GitHub\Algorithms-and-methods-for-presenting-graphical-information\Tree rendering\Tree rendering\obj\Debug\net5.0-windows\Tree rendering.pdb
+E:\Лена документы\GitHub\Algorithms-and-methods-for-presenting-graphical-information\Tree rendering\Tree rendering\obj\Debug\net5.0-windows\Tree rendering.genruntimeconfig.cache
+E:\Лена документы\GitHub\Algorithms-and-methods-for-presenting-graphical-information\Tree rendering\Tree rendering\obj\Debug\net5.0-windows\Tree_rendering.Properties.Resources.resources
+E:\Лена документы\GitHub\Algorithms-and-methods-for-presenting-graphical-information\Tree rendering\Tree rendering\obj\Debug\net5.0-windows\Tree_rendering.UserInputForm.resources
