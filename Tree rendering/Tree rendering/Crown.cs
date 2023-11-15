@@ -14,6 +14,8 @@ namespace Tree_rendering
         public int crownCenterY;
         public int crownRadius;
 
+        public static event Action<bool> IsOutOfHeight;
+
         public Crown(int x, int y, int r)
         {
             crownCenterX = x;
@@ -40,18 +42,31 @@ namespace Tree_rendering
                 double distance = random.NextDouble() * crownRadius;
 
                 // Преобразуем угол и расстояние в координаты
-                int x1 = (int)(crownCenterX + distance * Math.Sin(angle1));
-                int y1 = (int)(crownCenterY + distance * Math.Cos(angle1));
+                //int x1 = (int)(crownCenterX + distance * Math.Sin(angle1));
+                //int y1 = (int)(crownCenterY + distance * Math.Cos(angle1));
+                int x1 = (int)(crownCenterX );
+                int y1 = (int)(crownCenterY );
 
                 output.Add(new Point(x1, y1));
             }
             return output;
         }
 
-        public void ResizeCrone(double k)
+        public void ResizeCrone(double k, int height)
         {
-            crownCenterY -= Convert.ToInt32(crownCenterY / 10 * k);
-            crownRadius += Convert.ToInt32(crownRadius/10*k);
+            int newY = Convert.ToInt32(crownCenterY - crownCenterY / 10 * k);
+            int newRadius = Convert.ToInt32(crownRadius + crownRadius / 10 * k);
+            // Проверяем, не выходит ли новая крона за границы PictureBox
+            if (newY + newRadius <= height)
+            {
+                // Если не выходит, применяем изменения
+                crownCenterY = newY;
+                crownRadius = newRadius;
+            }
+            else
+            {
+                IsOutOfHeight?.Invoke(false);
+            }
             //MessageBox.Show(crownRadius.ToString());
         }
 

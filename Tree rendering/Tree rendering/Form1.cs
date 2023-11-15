@@ -16,6 +16,7 @@ namespace Tree_rendering
         private int _rainfall=10;
         private int _windF=10;
         private int _temp=10;
+        private bool _flag = true;
         private Color _colorBranch;
         Tree tree ;
 
@@ -32,7 +33,7 @@ namespace Tree_rendering
             "ветвей в зависимости от погоды.Параметры погоды" +
             "(интенсивность ветра и осадков, температура воздуха) задаются" +
             "пользователем.При благоприятной погоде длина ветви" +
-            "увеличится в 2 раза.Изначально дерево имеет ствол и три"+
+            "увеличится в 2 раза. Изначально дерево имеет ствол и три"+
             "ветви.Место появления новых веток на дереве выбирается"+
             "произвольно.", "Формулировка задачи");
         }
@@ -47,16 +48,27 @@ namespace Tree_rendering
             childForm.ShowDialog(this);
             SetProgressBar();
 
-            if (IsWeatherFavorable())
+            Crown.IsOutOfHeight += (flag) => _flag = flag;
+            if (_flag)
             {
-                tree.CreateBrunch(3);
-                tree.UpTree();
+                if (IsWeatherFavorable())
+                {
+                    tree.CreateBrunch(3);
+                    tree.UpTree();
+                }
+                else
+                {
+                    tree.CreateBrunch(1);
+                }
+                tree.DrawTrunk(pictureBox1, Color.Brown);
             }
             else
             {
-                tree.CreateBrunch(1);
+                UserInputToolStripButton.Enabled = false;
+                MessageBox.Show("Поздравляем, вы отлично заботились о дереве и оно достигло максимального размера" +
+                    "чтобы начать сначала, нажмите \"очистить холст и нарисуйте дерево заново\"", "Дерево выросло!");
             }
-            tree.DrawTrunk(pictureBox1, Color.Brown);
+            
         }
 
         private void SetProgressBar()
@@ -86,6 +98,9 @@ namespace Tree_rendering
         private void ClearToolStripButton1_Click(object sender, EventArgs e)
         {
             pictureBox1.Invalidate();
+            _flag = true;
+            UserInputToolStripButton.Enabled = true;
+            tree = new Tree(pictureBox1);
         }
     }
 }

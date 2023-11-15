@@ -34,7 +34,6 @@ namespace Tree_rendering
             this.trackBarTemp = new System.Windows.Forms.TrackBar();
             this.ApplyButton = new System.Windows.Forms.Button();
             this.colorDialog1 = new System.Windows.Forms.ColorDialog();
-            this.SetColorButton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label = new System.Windows.Forms.Label();
@@ -85,24 +84,13 @@ namespace Tree_rendering
             // 
             // ApplyButton
             // 
-            this.ApplyButton.Location = new System.Drawing.Point(30, 313);
+            this.ApplyButton.Location = new System.Drawing.Point(30, 251);
             this.ApplyButton.Name = "ApplyButton";
             this.ApplyButton.Size = new System.Drawing.Size(221, 36);
             this.ApplyButton.TabIndex = 3;
             this.ApplyButton.Text = "Применить новые параметры";
             this.ApplyButton.UseVisualStyleBackColor = true;
             this.ApplyButton.Click += new System.EventHandler(this.ApplyButton_Click);
-            // 
-            // SetColorButton
-            // 
-            this.SetColorButton.Enabled = false;
-            this.SetColorButton.Location = new System.Drawing.Point(30, 247);
-            this.SetColorButton.Name = "SetColorButton";
-            this.SetColorButton.Size = new System.Drawing.Size(221, 23);
-            this.SetColorButton.TabIndex = 4;
-            this.SetColorButton.Text = "Задать цвет для новых веток";
-            this.SetColorButton.UseVisualStyleBackColor = true;
-            this.SetColorButton.Click += new System.EventHandler(this.SetColorButton_Click);
             // 
             // label1
             // 
@@ -237,7 +225,7 @@ namespace Tree_rendering
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(292, 377);
+            this.ClientSize = new System.Drawing.Size(292, 304);
             this.Controls.Add(this.labelTemp2);
             this.Controls.Add(this.labelRainfall2);
             this.Controls.Add(this.labelWindF);
@@ -253,7 +241,6 @@ namespace Tree_rendering
             this.Controls.Add(this.label);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.SetColorButton);
             this.Controls.Add(this.ApplyButton);
             this.Controls.Add(this.trackBarTemp);
             this.Controls.Add(this.trackBarRainfall);
@@ -276,7 +263,6 @@ namespace Tree_rendering
         private System.Windows.Forms.TrackBar trackBarTemp;
         private System.Windows.Forms.Button ApplyButton;
         private System.Windows.Forms.ColorDialog colorDialog1;
-        private System.Windows.Forms.Button SetColorButton;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label;

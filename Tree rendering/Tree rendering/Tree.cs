@@ -14,12 +14,14 @@ namespace Tree_rendering
         private Point[] trunkPoints;
         private List<Branch> branches;
         private Crown crown;
+        int center_x;
+        int center_y;
 
         public Tree(PictureBox pictureBox)
         {
 
-            int center_x = pictureBox.Size.Width/2;
-            int center_y = pictureBox.Size.Height/2;
+            center_x = pictureBox.Size.Width/2;
+            center_y = pictureBox.Size.Height/2;
 
             trunkPoints = new Point[]
             {
@@ -48,14 +50,16 @@ namespace Tree_rendering
         public void CreateBrunch(int count)
         {
             Random random = new Random();
-            var points = crown.GetRandomPoints(count);
-            foreach (var i in points)
+            //var points = crown.GetRandomPoints(count);
+
+           //foreach (var i in points)
+           for (int i=0;i<count; i++)
             {
-                int angle1 = random.Next(1,180);
+                int angle1 = random.Next(0,180);
                 Branch branch = new Branch
                 (
-                    i.X,
-                    i.Y,
+                    center_x - 10,
+                    center_y * 4 / 3,
                     crown,
                     angle1,
                     30
@@ -72,7 +76,7 @@ namespace Tree_rendering
                 
                 foreach(var b in branches)
                 {
-                    b.DrowBranch(g, color);
+                    b.DrowBranch(g, color, pictureBox.Size.Height);
                 }
                 //MessageBox.Show(trunkPoints[1].ToString());
                 g.FillPolygon(Brushes.Brown, trunkPoints);

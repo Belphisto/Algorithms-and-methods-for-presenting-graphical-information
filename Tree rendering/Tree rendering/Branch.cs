@@ -30,7 +30,7 @@ namespace Tree_rendering
             _length *= 2;
         }
 
-        public void DrowBranch(Graphics g, Color color)
+        public void DrowBranch(Graphics g, Color color, int height)
         {
             // Вычисляем координаты конца ветки
             float width = 5; // Ширина прямоугольника
@@ -60,7 +60,7 @@ namespace Tree_rendering
             {
                 if (!_crown.IsPointInsideCrown(point))
                 {
-                    _crown.ResizeCrone(1.2); // Увеличиваем размер кроны
+                    _crown.ResizeCrone(1.6, height); // Увеличиваем размер кроны
                     //_crown.DrawCrone(g); // Перерисовываем крону
                     break; // Прерываем цикл, чтобы не увеличивать крону многократно
                 }
